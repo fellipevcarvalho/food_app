@@ -56,7 +56,7 @@ def exibir_subtitulo(texto):
     print()
 
 
-
+    '''Essa função é responsavel por cadastrar um novo restaurante'''
 def cadastrar_restaurante():
     exibir_subtitulo('Cadastro de novos restaurantes')
     nome_restaurante = input('Digite o nome do restaurante: ')
@@ -68,7 +68,7 @@ def cadastrar_restaurante():
 
 
 
-
+    '''Essa função é responsavel por listar os restaurantes já cadastrados'''
 def listar_restaurantes():
     exibir_subtitulo('Listando restaurantes')
     
